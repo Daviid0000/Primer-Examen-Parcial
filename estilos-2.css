@@ -1,0 +1,48 @@
+#fondo {
+    background-color: #242424;
+    color: white;
+  }
+
+/*Sección 2*/
+
+.seccion-1{
+    font-size: 25px;
+    margin: 20px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:25% 25% 25% 25%;
+    
+}
+
+
+.tar-1{
+    margin:150px;
+    border: 1px solid blue;
+}
+.tar-2{
+    margin:150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
