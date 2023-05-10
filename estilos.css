@@ -1,0 +1,49 @@
+/*fondo body*/
+#fondo {
+  background-color: #000000;
+  
+}
+/*Header padre*/
+.header-padre {
+  border: 1px solid black;
+}
+
+/*Presentación escrita*/
+.contenedor-2 {
+  width: 650px;
+  background-color: rgb(255, 255, 255, 0.1);
+  padding: 20px;
+  display: inline-block;
+  box-shadow: 4px -3px 1px 1px rgb(63, 63, 63);
+  margin: 30px;
+}
+
+/*Textaso*/
+.contenido-2 {
+  color: #ffffff;
+  padding: 10px;
+}
+/*Contenedor-1*/
+.contenedor-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+/*Foto de presentación*/
+.img-presentacion {
+  width: 400px;
+  position: relative;
+  top: -500px;
+  padding: 50px;
+}
+
+/*Página proyectos*/
+.contenedor-3{
+    background-color: rgb(27, 27, 27);
+    padding: 15px;
+    color: #ffffff;
+}
+
+div a{
+    padding-left: 15px;
+    font-size: 20px;
+}
