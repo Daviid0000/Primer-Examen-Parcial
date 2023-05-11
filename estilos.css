@@ -1,37 +1,33 @@
 /*fondo body*/
-#fondo {
-  background-color: #242424;
-  
-}
-/*Header padre*/
-.header-padre {
-  border: 1px solid black;
-  position: fixed;
+    .fondo {
+      background: linear-gradient(to top, rgb(67, 67, 67), rgb(0, 0, 0));
+    
 }
 
-/*Presentación escrita*/
+/*Presentación escrita* 
 .contenedor-2 {
-  width: 650px;
-  background-color: rgb(255, 255, 255, 0.1);
-  padding: 20px;
+  width: 550px;
+  position:relative;
+  top: 10px;
+  left: 25px;
   display: inline-block;
-  box-shadow: 4px -3px 1px 1px rgb(63, 63, 63);
   margin: 100px 30px 0px 30px;
-}
+}*/
 
-/*Textaso*/
+/*Textaso*
 .contenido-2 {
   color: #ffffff;
   padding: 10px;
+  background-color: rgba(175,175,175,.1);
 }
-/*Contenedor-1*/
+/*Contenedor-1*
 .contenedor-1 {
   display: flex;
   justify-content: flex-end;
 }
-/*Foto de presentación*/
+/*Foto de presentación*
 .img-presentacion {
-  width: 400px;
+  width: 450px;
   position: relative;
   top: -500px;
   padding: 50px;
