@@ -14,10 +14,10 @@
         crossorigin="anonymous"
       />
 </head>
-<body id="fondo">
+<body style="background: linear-gradient(rgb(0, 0, 0), rgb(67, 67, 67))">
     <header class="padre-header">
         <nav
-          class="navbar navbar-expand-sm navbar-dark bg-dark"
+          class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"
           aria-label="Third navbar example"
         >
           <div class="container-fluid">
@@ -34,10 +34,10 @@
               <span class="navbar-toggler-icon"></span>
             </button>
   
-            <div class="collapse navbar-collapse" id="navbarsExample03">
+            <div class="collapse navbar-collapse navbar-light" id="navbarsExample03">
               <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link " aria-current="page" href="#"
                     >Inicio</a
                   >
                 </li>
@@ -48,7 +48,7 @@
                   <a class="nav-link" href="#">Saber sobre mi</a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="Proyectos.html">Mis proyectos</a>
+                  <a class="nav-link active" href="Proyectos.html">Mis proyectos</a>
                     </li>
                   </ul>
                 </li>
@@ -59,10 +59,6 @@
       </header>
 
       <section class="seccion-1"> 
-        <div>
-            Proyectos
-        </div>
-        
         <!-- Tarjeta 1 -->
         <div class="card tar-1" style="width: 12rem;">
             <img src="card.jpg" class="card-img-top " alt="..." >
@@ -83,5 +79,11 @@
             </div>
           </div>
       </section>
+
+      <footer>
+        <div class="pie-de-pagina">
+          &copy; 2023 David Liva. Todos los derechos recervados.
+        </div>
+      </footer>
 </body>
 </html>

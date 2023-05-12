@@ -3,6 +3,11 @@
       background: linear-gradient(to top, rgb(67, 67, 67), rgb(0, 0, 0));
     
 }
+/*Pie de página*/
+.pie-de-pagina{
+  text-align: center;
+  
+}
 
 /*Presentación escrita* 
 .contenedor-2 {
