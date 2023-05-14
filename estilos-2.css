@@ -12,23 +12,23 @@
     grid-template-rows:25% 25% 25% 25%;
     
 }
-
+.zzz{
+    background-color: #242424;
+}
 
 .tar-1{
-    margin:150px;
+    top: 150px;
     grid-column-start: 2;
-    border: 1px solid blue;
+    grid-rows-start:2;
 }
-.tar-2{
-    margin:150px;
+/* .tar-2{
+    margin-top:150px;
     grid-column-start: 3;
-}
+    grid-rows-start: 3;
+} */
 
 /*pie de página*/
 .pie-de-pagina{
-    background-color: #242424;
-    border: 2px solid #000;
-    color: #6c757d;
     text-align: center;
     
 }

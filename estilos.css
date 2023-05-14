@@ -9,6 +9,11 @@
   
 }
 
+.fondo-2{
+  background: linear-gradient(to top, rgb(67, 67, 67), rgb(0, 0, 0));
+
+}
+
 /*Presentación escrita* 
 .contenedor-2 {
   width: 550px;
